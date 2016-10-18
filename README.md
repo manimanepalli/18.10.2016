@@ -1,1 +1,8 @@
-# 18.10.2016
+#include<stdio.h>
+main(){
+  int a,b,c;
+  printf("Enter the Value of A , B :");
+  scanf("%d",&a,&b);
+  c=a+b;
+  printf("Value of c : %d",c);
+}
